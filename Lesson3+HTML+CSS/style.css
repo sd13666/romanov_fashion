@@ -1,28 +1,60 @@
-.sizing {
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sizing{
     margin: auto;
     margin-top: 50px;
     height: 400px;
     width: 500px;
-    border: 2px solid black;
-    background-color: aqua;
-    padding: 20px;    
+    border: 2px solid silver;
+    background-color: rgb(147, 129, 165);
+    padding: 20px;
 }
-
 .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 .flex-element {
+    width: 25%;
+    /* height: 70px; */
+    /* background-color: skyblue;
+    border: 2px solid black; */
+    /* font-size: 40px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.square{
     width: 70px;
     height: 70px;
-    background: skyblue;
+    background-color: skyblue;
     border: 2px solid black;
-    font-style: 40px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
+
+.box-1{
+    /* flex-grow: 2; */
+}
+.box-2{
+    /* flex-shrink: 1; */
+}
+.box-3{
+    /* flex-shrink: 0; */
+}
+.box-4{}
+.box-5{}
+.box-6{}
