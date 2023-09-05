@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: azure;
+    border-bottom: 2px solid #eee;
+    
+}
+.container {
+    widows: 1420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_block {
+    display: flex;
+    align-items: center;
+}
+
+.first_logo {
+    padding: 8px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 55px;
+}
+
+header nav ul li {
+
+}
+
+.active_link {
+    color: green;
+}
+
+.header_buttons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.contact {
+    widows: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    align-items: center;
+    border-radius: 40px;
+    background: green;
+}
+
+.contact span {
+
+}
